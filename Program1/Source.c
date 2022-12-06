@@ -34,10 +34,9 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <stdlib.h>
-#include "Stack.h"
-#include "Midtier.h"
-#include "GetUserInput.h"
+#include "Stack.h"															// Header file for Stack Library
+#include "Midtier.h"														// Header file for Midtier Library
+#include "GetUserInput.h"													// Header file for GetUserInput Library
 
 int main(void)
 {
@@ -47,21 +46,13 @@ int main(void)
 
 	GetUserInput(inputBuffer, "Please Enter a word: ");
 
-	printf("Before Reversing the String: %s", inputBuffer);
+	printf("\nBefore Reversing the String: %s", inputBuffer);
 
 	ReverseString(stack, inputBuffer);
 
 	printf("\nAfter Reversing the String:  ");
 
-	DisplayString(stack, inputBuffer);
-
-	//int i = 0;
-	//while (inputBuffer[i] != '\0')
-	//	push(stack, inputBuffer[i++]);
-
-	//char ch;
-	//while (ch = pop(stack))
-	//	printf("%c", ch);
+	DisplayString(stack);
 
 	printf("\n");
 

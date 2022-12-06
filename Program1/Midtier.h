@@ -8,8 +8,8 @@
 // Header file for Midtier Library of Program 1
 
 #include <stdio.h>
-#include "Stack.h"
+#include "Stack.h"														// Header file for Stack Library
 
-void ReverseString(STACK*, char*);
+void ReverseString(STACK*, char*);										// A function prototype for ReverseString Library
 
-void DisplayString(STACK*, char*);
+void DisplayString(STACK*);												// A function prototype for DisplayString Library

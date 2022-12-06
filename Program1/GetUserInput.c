@@ -12,7 +12,7 @@
 // A function that prompt user for input in string and pass back the value by reference
 void GetUserInput(char* userInput, const char* message)
 {
-	printf("%s ", message);									// Print Enter a string message for user to know what to do
+	printf("%s", message);									// Print Enter a string message for user to know what to do
 
 	// Get user Input with fgets
 	fgets(userInput, MAXSTRLEN, stdin);		// Prompt user for input in string

@@ -12,4 +12,4 @@
 #include <stdlib.h>											
 #include <string.h>											// Use for strlen() method
 
-void GetUserInput(char*, const char*);						// A function for GetUserInput Library
+void GetUserInput(char*, const char*);						// A function prototype for GetUserInput Library
